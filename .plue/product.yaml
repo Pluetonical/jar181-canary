@@ -6,3 +6,4 @@ services:
   - name: web
     build: .
     public: true
+    port: 8080
