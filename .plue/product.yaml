@@ -1,1 +1,5 @@
-name: jar181-canary
+product_id: jar181-canary
+display_name: JAR-181 Canary
+repo: Pluetonical/jar181-canary
+public_path: /jar181-canary/
+services: []
