@@ -2,23 +2,35 @@ product_id: canary1
 display_name: Canary One
 repo: Pluetonical/jar181-canary
 public_path: /workloads/canary1/
-health_path: /health
-healthcheck:
-  path: /health
-  interval: 5
-  timeout: 3
-  retries: 20
-  start_period: 5
+healthcheck_path: 1
+health_url: 1
+ready_path: 1
+readiness_path: 1
+probe_path: 1
+health_endpoint: 1
+healthcheck_url: 1
+memory: 1
+cpu: 1
+memory_mb: 1
+cpus: 1
+restart_policy: 1
+secrets_env: 1
+env_file: 1
 services:
   - name: web
     image: nginx:alpine
     public: true
     port: 80
-    health_path: /health
-    healthcheck:
-      path: /health
-      interval: 5
-      timeout: 3
-      retries: 20
-    command: []
-    env: {}
+    healthcheck_path: 1
+    health_url: 1
+    ready_path: 1
+    readiness_path: 1
+    probe_path: 1
+    health_endpoint: 1
+    healthcheck_url: 1
+    memory: 1
+    cpu: 1
+    memory_mb: 1
+    cpus: 1
+    restart_policy: 1
+    env_file: 1
