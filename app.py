@@ -5,8 +5,8 @@ import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 STARTED = time.time()
-HEALTH_FAIL = True
-BUILD = "v2-bad-health"
+HEALTH_FAIL = False
+BUILD = "v2-good"
 
 
 def read_cgroup(name, v1path):
