@@ -4,9 +4,7 @@ repo: Pluetonical/jar181-canary
 public_path: /workloads/jar181-canary/
 services:
   - name: web
-    build:
-      context: .
-      dockerfile: Dockerfile
+    build: .
     public: true
     port: 8080
     health_path: /health
