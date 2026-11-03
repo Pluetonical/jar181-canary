@@ -1,4 +1,5 @@
 # jar181-canary
 
 Disposable product repository used to validate the Plue workload deployer
-end-to-end (exact-SHA deploy, health gating, and rollback). Safe to delete.
+end-to-end (exact-SHA deploy, health gating, rollback, restart recovery,
+resource limits and secret isolation). Safe to delete.
