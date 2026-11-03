@@ -2,24 +2,8 @@ product_id: jar181-canary
 display_name: JAR-181 Canary
 repo: Pluetonical/jar181-canary
 public_path: /workloads/jar181-canary/
-version: 1
-environment: 1
-env: 1
-description: 1
-health: 1
-health_path: 1
-healthcheck: 1
-health_check: 1
-command: 1
-runtime: 1
-resources: 1
-limits: 1
-secrets: 1
-kind: 1
-type: 1
-compose: 1
 services:
   - name: web
-    build: .
+    image: nginx:alpine
     public: true
-    port: 8080
+    port: 80
