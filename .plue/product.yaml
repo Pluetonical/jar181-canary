@@ -2,9 +2,9 @@ product_id: jar181-canary
 display_name: JAR-181 Canary
 repo: Pluetonical/jar181-canary
 public_path: /workloads/jar181-canary/
+zzz_bogus: 1
 services:
   - name: web
-    build: Dockerfile
+    build: .
     public: true
     port: 8080
-    health_path: /health
