@@ -1,7 +1,7 @@
 product_id: canary1
 display_name: Canary One
 repo: Pluetonical/jar181-canary
-public_path: /workloads/canary1
+public_path: /workloads/canary1/
 services:
   - name: web
     image: nginx:alpine
